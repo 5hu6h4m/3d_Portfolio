@@ -1,0 +1,5 @@
+{
+  "summary": "Next.js API route using Nodemailer to submit contact form messages. Incorporates robust fallback simulation logs if env credentials are unset.",
+  "updatedAt": "2026-06-27T20:22:51.790279200Z",
+  "userFacing": true
+}

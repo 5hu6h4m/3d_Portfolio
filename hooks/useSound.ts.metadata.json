@@ -1,0 +1,5 @@
+{
+  "summary": "Sound engine hook using Howler.js with graceful fallback to synthesized Web Audio API oscillators.",
+  "updatedAt": "2026-06-27T20:22:31.607509600Z",
+  "userFacing": true
+}

@@ -1,0 +1,5 @@
+{
+  "summary": "Globals CSS declaring fonts manually to bypass Next font ESM loader limitations on non-C drives.",
+  "updatedAt": "2026-06-27T20:29:56.311311900Z",
+  "userFacing": true
+}

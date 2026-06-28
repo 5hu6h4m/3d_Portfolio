@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --void: #0A0A0F;
+  --deep-night: #0D1117;
+  --village-night: #111827;
+  
+  --forest-deep: #0A1A0A;
+  --leaf-dark: #1A2E1A;
+  --moss: #2D4A2D;
+  
+  --chakra-core: #DC2626;
+  --chakra-glow: #EF4444;
+  --chakra-aura: rgba(220, 38, 38, 0.15);
+  
+  --rinnegan-gold: #F59E0B;
+  
+  --moonlight: #F1F5F9;
+  --silver-mist: #94A3B8;
+  --ghost-white: rgba(241, 245, 249, 0.7);
+  
+  --color-fire: #EF4444;
+  --color-wind: #38BDF8;
+  --color-lightning: #A78BFA;
+  --color-earth: #92400E;
+  --color-water: #0EA5E9;
+  --color-yinyang: #F59E0B;
+}
+
+body {
+  background-color: var(--void);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-noto-jp {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Background noise textures */
+.noise-bg {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  opacity: 0.02;
+  pointer-events: none;
+  z-index: 99;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Aged dark parchment scroll card background */
+.parchment-scroll {
+  background: radial-gradient(circle at center, #161B22 0%, #0D1117 100%);
+  border: 1px solid rgba(220, 38, 38, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Glowing text effects */
+.glow-text-red {
+  text-shadow: 0 0 12px rgba(239, 68, 68, 0.8), 0 0 24px rgba(239, 68, 68, 0.4);
+}
+.glow-text-gold {
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.8), 0 0 24px rgba(245, 158, 11, 0.4);
+}
+
+/* Smooth custom cursor configurations */
+.custom-cursor {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 10000;
+  transition: transform 0.08s ease-out;
+}
+
+/* Custom Scroll Progress meters */
+.progress-bar-fill {
+  background: linear-gradient(90deg, var(--chakra-core) 0%, var(--rinnegan-gold) 100%);
+  box-shadow: 0 0 10px var(--chakra-glow);
+}
+
+/* Animated keyframe pulses */
+@keyframes aura-pulse {
+  0%, 100% { opacity: 0.35; transform: scale(0.96); }
+  50% { opacity: 0.7; transform: scale(1.04); }
+}
+.chakra-aura-glow {
+  animation: aura-pulse 3.5s ease-in-out infinite;
+}
+
+@keyframes leaf-swing {
+  0%, 100% { transform: rotate(0deg) translateX(0); }
+  50% { transform: rotate(15deg) translateX(8px); }
+}
+.swinging-leaf {
+  animation: leaf-swing 6s ease-in-out infinite;
+}
+
+@keyframes lightning-flash {
+  0%, 94%, 98%, 100% { opacity: 0; }
+  95%, 97% { opacity: 0.15; }
+}
+.lightning-flash-overlay {
+  animation: lightning-flash 12s infinite;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.5; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+.pulse-circle-effect {
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.610, 0.355, 1) infinite;
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.spin-slow-loop {
+  animation: spin-slow 40s linear infinite;
+}
+
+@keyframes credits-scroll {
+  from { transform: translateY(100%); }
+  to { transform: translateY(-160%); }
+}
+.credits-scroll-loop {
+  animation: credits-scroll 24s linear infinite;
+}
