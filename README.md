@@ -2,6 +2,12 @@
 
 A cinematic, interactive 3D portfolio featuring a hero canvas, diegetic HUD, and immersive chapter-by-chapter story of Roshan Bhagat as a cyberpunk shinobi. Built with Next.js, Framer Motion, Three.js, and Lenis.
 
+## Features
+- **Cinematic Experience**: Chapter-by-chapter interactive graphic novel storytelling.
+- **3D Canvas**: Engaging 3D element rendering using Three.js and Fiber.
+- **Diegetic HUD**: Interactive heads-up display overlay for navigation and statistics.
+- **Responsive Layout**: Designed for mobile and desktop screens.
+
 ## Getting Started
 
 First, run the development server:
