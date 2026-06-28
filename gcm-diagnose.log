@@ -1,0 +1,188 @@
+﻿Diagnose log at 2026-06-28T05:13:44Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.3+5fa7116896c82164996a609accd1c5ad90fe730a
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+TMP=C:\Users\shubh\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\shubh\AppData\Local\Programs\Antigravity IDE\resources\app\extensions\git\dist\askpass-main.js
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\shubh\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\shubh\AppData\Local\Microsoft\WindowsApps;C:\Users\shubh\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\shubh\AppData\Roaming\npm;C:\Program Files\Git\cmd
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-0f4e9c8666-sock
+USERDOMAIN=5HU6H4M
+PROCESSOR_REVISION=7e05
+TMPDIR=C:\Users\shubh\AppData\Local\Temp
+TEMP=C:\Users\shubh\AppData\Local\Temp
+USERPROFILE=C:\Users\shubh
+LOGONSERVER=\\5HU6H4M
+TERM=xterm-256color
+USERNAME=shubh
+SystemRoot=C:\WINDOWS
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_10308_HRYOZEPRPZSJUHTX
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\shubh\OneDrive
+USERDOMAIN_ROAMINGPROFILE=5HU6H4M
+VSCODE_NONCE=3d8651d2-6cb6-4b9a-b73b-7fe8187aa0b5
+CommonProgramFiles=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+ProgramData=C:\ProgramData
+LANG=en_US.UTF-8
+GIT_ASKPASS=c:\Users\shubh\AppData\Local\Programs\Antigravity IDE\resources\app\extensions\git\dist\askpass.sh
+HOMEPATH=\Users\shubh
+OneDriveConsumer=C:\Users\shubh\OneDrive
+COMPUTERNAME=5HU6H4M
+VSCODE_INJECTION=1
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+VSCODE_A11Y_MODE=0
+ANTIGRAVITY_CLI_ALIAS=agy-ide
+SESSIONNAME=Console
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+windir=C:\WINDOWS
+GIT_TRACE2_PARENT_SID=593ba174-7d60-4af7-84b8-e020e0f78c76
+VSCODE_GIT_ASKPASS_NODE=C:\Users\shubh\AppData\Local\Programs\Antigravity IDE\Antigravity IDE.exe
+NUMBER_OF_PROCESSORS=8
+OS=Windows_NT
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+VSCODE_STABLE=1
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOME=C:\Users\shubh
+PSModulePath=C:\Users\shubh\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+EFC_6760_4126798990=1
+APPDATA=C:\Users\shubh\AppData\Roaming
+EFC_6760_1592913036=1
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\shubh\AppData\Local
+TERM_PROGRAM_VERSION=1.107.0
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\shubh\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\shubh\AppData\Local\Temp\28ef48759f56f7de62f4fbb5'... OK
+Reading from temporary file 'C:\Users\shubh\AppData\Local\Temp\28ef48759f56f7de62f4fbb5'... OK
+Deleting temporary file 'C:\Users\shubh\AppData\Local\Temp\28ef48759f56f7de62f4fbb5'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\shubh
+UserDataDirectoryPath: C:\Users\shubh\.gcm
+GetCurrentDirectory(): D:\Portfolio
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:56895/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.54.0.windows.1'
+Locating current repository...Git repository at 'D:/Portfolio/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	user.email=shubhambhagatsb@gmail.com
+file:.git/config	user.name=Roshan Bhagat
+file:.git/config	remote.origin.url=https://github.com/5hu6h4m/3d_Portfolio.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\shubh\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\shubh\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

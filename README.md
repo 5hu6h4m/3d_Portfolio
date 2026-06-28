@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Naruto Cinematic Portfolio
+
+A cinematic, interactive 3D portfolio featuring a hero canvas, diegetic HUD, and immersive chapter-by-chapter story of Roshan Bhagat as a cyberpunk shinobi. Built with Next.js, Framer Motion, Three.js, and Lenis.
 
 ## Getting Started
 
